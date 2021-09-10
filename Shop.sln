@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.PC", "Shop.PC\Shop.PC.csproj", "{74AB9A42-C7C1-4CEF-BF93-3A03E00FC7F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Model", "Shop.Model\Shop.Model.csproj", "{29C3AC6B-9EB7-4143-A81D-91BED8000D3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Model", "Shop.Model\Shop.Model.csproj", "{29C3AC6B-9EB7-4143-A81D-91BED8000D3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.IDal", "Shop.IDal\Shop.IDal.csproj", "{4C01D7AF-F614-4B91-A365-FAF48DC5808D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.IDal", "Shop.IDal\Shop.IDal.csproj", "{4C01D7AF-F614-4B91-A365-FAF48DC5808D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Dal", "Shop.Dal\Shop.Dal.csproj", "{C30B9F6D-2AD6-42CA-86F7-842703E0143B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Dal", "Shop.Dal\Shop.Dal.csproj", "{C30B9F6D-2AD6-42CA-86F7-842703E0143B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.DalFactory", "Shop.DalFactory\Shop.DalFactory.csproj", "{E2E8F37A-D43D-47D9-AD45-F50CA0595CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.DalFactory", "Shop.DalFactory\Shop.DalFactory.csproj", "{E2E8F37A-D43D-47D9-AD45-F50CA0595CA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Bll", "Shop.Bll\Shop.Bll.csproj", "{79E02ADD-081D-4D44-86EB-A27CDB711308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Bll", "Shop.Bll\Shop.Bll.csproj", "{79E02ADD-081D-4D44-86EB-A27CDB711308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.IBll", "Shop.IBll\Shop.IBll.csproj", "{E25DD4BE-E2DF-408A-903F-D2D6E95465B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.IBll", "Shop.IBll\Shop.IBll.csproj", "{E25DD4BE-E2DF-408A-903F-D2D6E95465B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.PC", "Shop.PC\Shop.PC.csproj", "{B69F4F52-DE91-4F49-8930-6ABC7C0DA44A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{74AB9A42-C7C1-4CEF-BF93-3A03E00FC7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74AB9A42-C7C1-4CEF-BF93-3A03E00FC7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74AB9A42-C7C1-4CEF-BF93-3A03E00FC7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74AB9A42-C7C1-4CEF-BF93-3A03E00FC7F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29C3AC6B-9EB7-4143-A81D-91BED8000D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{29C3AC6B-9EB7-4143-A81D-91BED8000D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C3AC6B-9EB7-4143-A81D-91BED8000D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{E25DD4BE-E2DF-408A-903F-D2D6E95465B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E25DD4BE-E2DF-408A-903F-D2D6E95465B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E25DD4BE-E2DF-408A-903F-D2D6E95465B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69F4F52-DE91-4F49-8930-6ABC7C0DA44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69F4F52-DE91-4F49-8930-6ABC7C0DA44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69F4F52-DE91-4F49-8930-6ABC7C0DA44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69F4F52-DE91-4F49-8930-6ABC7C0DA44A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

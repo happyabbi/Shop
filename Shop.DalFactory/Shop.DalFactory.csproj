@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Shop.Dal\Shop.Dal.csproj" />
     <ProjectReference Include="..\Shop.IDal\Shop.IDal.csproj" />
     <ProjectReference Include="..\Shop.Model\Shop.Model.csproj" />
   </ItemGroup>
