@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Event\Menu\" />
+    <Folder Include="Event\Footer\" />
+    <Folder Include="Event\Content\" />
+    <Folder Include="Interface\Content\" />
+    <Folder Include="Interface\Footer\" />
+    <Folder Include="Interface\Header\" />
+    <Folder Include="Interface\Menu\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="8.0.0.1909" />
+  </ItemGroup>
+
+</Project>

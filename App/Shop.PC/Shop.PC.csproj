@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Shop.PC</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContentModule\ContentModule.csproj" />
+    <ProjectReference Include="..\FooterModule\FooterModule.csproj" />
+    <ProjectReference Include="..\HeaderModule\HeaderModule.csproj" />
+    <ProjectReference Include="..\MenuModule\MenuModule.csproj" />
+    <ProjectReference Include="..\Shop.Infrastucture\Shop.Infrastucture.csproj" />
+  </ItemGroup>
+</Project>

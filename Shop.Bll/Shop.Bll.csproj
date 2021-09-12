@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.DalFactory\Shop.DalFactory.csproj" />
+    <ProjectReference Include="..\Shop.IBll\Shop.IBll.csproj" />
+    <ProjectReference Include="..\Shop.IDal\Shop.IDal.csproj" />
+  </ItemGroup>
 
 </Project>

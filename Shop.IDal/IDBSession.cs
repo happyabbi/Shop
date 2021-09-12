@@ -8,5 +8,8 @@ namespace Shop.IDal
         DbContext Db { get; }
 
         bool SaveChanges();
+
+
+        IStudentDal StudentDal { get; set; }
     }
 }

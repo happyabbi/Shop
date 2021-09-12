@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Shop.PC
+namespace MenuModule.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ViewMenu.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ViewMenu : UserControl
     {
-        public MainWindow()
+        public ViewMenu()
         {
             InitializeComponent();
         }

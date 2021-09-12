@@ -1,0 +1,128 @@
+{
+  "id": "2806654",
+  "name": "Shop",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1890252",
+      "name": "搜索",
+      "font_class": "sousuo_sousuo",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "7289138",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "12577016",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "1989816",
+      "name": "头像",
+      "font_class": "avatar",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "9207975",
+      "name": "头像",
+      "font_class": "touxiang",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "21959870",
+      "name": "头像",
+      "font_class": "biaodanshejiqi-21",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "5645797",
+      "name": "右拉-小",
+      "font_class": "youla-xiao",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "7320562",
+      "name": "下  拉",
+      "font_class": "xiala",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8080538",
+      "name": "上  拉",
+      "font_class": "xiala1",
+      "unicode": "e7b3",
+      "unicode_decimal": 59315
+    },
+    {
+      "icon_id": "11100985",
+      "name": "左拉",
+      "font_class": "zuola",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "4213703",
+      "name": "菜单",
+      "font_class": "caidan1",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "24225403",
+      "name": "菜单",
+      "font_class": "a-1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2647656",
+      "name": "pifu",
+      "font_class": "pifu1",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "7025182",
+      "name": "还原",
+      "font_class": "huanyuan",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "15953069",
+      "name": "最大化",
+      "font_class": "zuidahua",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11951367",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "17431867",
+      "name": "最小化",
+      "font_class": "zuixiaohua1",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

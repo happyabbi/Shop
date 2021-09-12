@@ -1,12 +1,13 @@
-﻿<Window x:Class="Shop.PC.MainWindow"
+﻿<Window x:Class="Shop.PC.Views.Student"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Shop.PC"
+        xmlns:local="clr-namespace:Shop.PC.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Student" Height="450" Width="800">
+    <Grid Background="Blue">
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Text="Menu">
+        </TextBlock>
     </Grid>
 </Window>
