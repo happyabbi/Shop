@@ -19,7 +19,8 @@
                 <RowDefinition Height="70"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="210"></ColumnDefinition>
+                <!--<ColumnDefinition Width="210"></ColumnDefinition>-->
+                <ColumnDefinition Width="{Binding MenuRegionWidth}"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <ContentControl Grid.Row="0" Grid.Column="1" prism:RegionManager.RegionName="HeaderRegion"  MouseLeftButtonDown="WinMove_LeftButtonDown"/>

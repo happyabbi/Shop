@@ -1,0 +1,51 @@
+{
+  "id": "2810452",
+  "name": "ShopMenu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2217249",
+      "name": "店铺",
+      "font_class": "dianpu",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "3596344",
+      "name": "钱",
+      "font_class": "qian-copy",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "3843466",
+      "name": "店铺",
+      "font_class": "dianpu1",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "10498978",
+      "name": "店铺",
+      "font_class": "dianpu2",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "19070075",
+      "name": "店铺",
+      "font_class": "dianpu3",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "12232551",
+      "name": "logo",
+      "font_class": "logo",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

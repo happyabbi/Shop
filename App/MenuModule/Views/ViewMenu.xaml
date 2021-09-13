@@ -7,10 +7,57 @@
              mc:Ignorable="d" 
              d:DesignHeight="768" d:DesignWidth="210"
              xmlns:prism="http://prismlibrary.com/"
-             prism:ViewModelLocator.AutoWireViewModel="True" >
+             prism:ViewModelLocator.AutoWireViewModel="True" 
+             FontFamily="Microsoft YaHei">
 
     <Grid Background="#F8E0AF">
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Text="Menu">
-        </TextBlock>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="74"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock FontFamily="../Assets/Fonts/#iconfont" Text="&#xe60b;" FontSize="34" Foreground="#FF7F00" Margin="0,-3,5,0"/>
+                <TextBlock Text="我的小店" FontWeight="Bold" FontSize="24"/>
+            </StackPanel>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontFamily="../Assets/Fonts/#iconfont" Text="&#xe60b;" FontSize="24" Foreground="#FF7F00" Margin="0,0,5,0"/>
+                    <TextBlock Text="收银" FontSize="20"/>
+                </StackPanel>
+                <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontFamily="../Assets/Fonts/#iconfont" Text="&#xe60b;" FontSize="24" Foreground="#FF7F00" Margin="0,0,5,0"/>
+                    <TextBlock Text="收银" FontSize="20"/>
+                </StackPanel>
+                <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontFamily="../Assets/Fonts/#iconfont" Text="&#xe60b;" FontSize="24" Foreground="#FF7F00" Margin="0,0,5,0"/>
+                    <TextBlock Text="收银" FontSize="20"/>
+                </StackPanel>
+                <StackPanel Grid.Row="8" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontFamily="../Assets/Fonts/#iconfont" Text="&#xe60b;" FontSize="24" Foreground="#FF7F00" Margin="0,0,5,0"/>
+                    <TextBlock Text="收银" FontSize="20"/>
+                </StackPanel>
+            </Grid>
+
+        </Grid>
+
     </Grid>
 </UserControl>

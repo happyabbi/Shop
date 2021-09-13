@@ -11,15 +11,25 @@ namespace Shop.PC.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
+        const int MENUREGIONWIDTH = 210;
+
+        IRegionManager _regionManager;
+        IEventAggregator _eventAggregator;
+
         private string _title = "Prism Application";
         public string Title
-        {   
+        {
             get { return _title; }
             set { SetProperty(ref _title, value); }
         }
 
-        IRegionManager _regionManager;
-        IEventAggregator _eventAggregator;
+        private int _menuRegionWidth = MENUREGIONWIDTH;
+        public int MenuRegionWidth
+        {
+            get { return _menuRegionWidth; }
+            set { SetProperty(ref _menuRegionWidth, value); }
+        }
+
         public MainWindowViewModel(IRegionManager regionManager, IEventAggregator eventAggregator)
         {
             _regionManager = regionManager;
@@ -38,6 +48,15 @@ namespace Shop.PC.ViewModels
                             break;
                         case SystemCommandEnum.Max:
                             SystemCommands.MaximizeWindow(Application.Current.MainWindow);
+                            break;
+                        case SystemCommandEnum.Restore:
+                            SystemCommands.RestoreWindow(Application.Current.MainWindow);
+                            break;
+                        case SystemCommandEnum.ShrinkMenu:
+                            MenuRegionWidth = 0;
+                            break;
+                        case SystemCommandEnum.SpreadMenu:
+                            MenuRegionWidth = MENUREGIONWIDTH;
                             break;
                         default:
                             break;
